@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:text="青辉石计算器V1.0"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择你的总力战档位："
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/sp_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/data"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入你的总力战累计得分："
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/tv_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入总分数"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_jjc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择你的竞技场排名："
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/sp_jjc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/jjc"
+        android:spinnerMode="dialog" />
+    <TextView
+        android:id="@+id/tv_ddl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择目标卡池："
+        android:textSize="20dp" />
+    <Spinner
+        android:id="@+id/sp_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/up"
+        android:spinnerMode="dialog" />
+
+
+    <TextView
+        android:id="@+id/tv_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="刷新"
+        android:onClick="flush"/>
+    <TextView
+        android:id="@+id/tv_beiZhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注：本计算器不统计新更新的剧情和主线以及维修。这里列举下：\n1、6月7日开放vol2下和CH21，7月22最终篇第一章，7月24日第二章，8月22第三章，9月8日第四章。\n2、春锅池前两次维修，未花池前两次维修，渚池前两次维修，便利屋前两次维修，水梓池前三次维修。"
+        android:textSize="15dp" />
+
+
+
+</LinearLayout>
+

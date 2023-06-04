@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>卷狗1档</item>
+        <item>凡人2档</item>
+        <item>摆烂3档</item>
+        <item>低保4档</item>
+    </string-array>
+    <string-array name="jjc">
+        <item>1</item>
+        <item>2</item>
+        <item>3-10</item>
+        <item>11-100</item>
+        <item>101-200</item>
+        <item>201-500</item>
+        <item>501-1000</item>
+        <item>1001-2000</item>
+        <item>2001-4000</item>
+        <item>4001-8000</item>
+        <item>8001-15000</item>
+    </string-array>
+    <string-array name="up">
+        <item>圣诞小护士</item>
+        <item>煮饭婆-春晴奈</item>
+        <item>三一格黑娜联合医院</item>
+        <item>mika(fes)</item>
+        <item>喷火兵-局长(送100抽，限本期)</item>
+        <item>樱子-忧-日向</item>
+        <item>时-渚</item>
+        <item>小雪-白子</item>
+        <item>便利屋68(正月)</item>
+        <item>小狐狸-三森</item>
+        <item>伊吕波-果穗-枫-大野</item>
+        <item>斯大萝-保洁</item>
+        <item>女仆爱丽丝-兔时</item>
+        <item>宇泽玲纱-和纱</item>
+        <item>水真白-水梓</item>
+    </string-array>
+</resources>
